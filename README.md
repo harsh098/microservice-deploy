@@ -21,7 +21,8 @@ Assuming you have `mysql` and `mongo` installed on local and `mongo` is configur
 
 1. Configure You `mysqld.service` and `mongod.service` to allow all hosts i.e. `0.0.0.0` (for all IPv4) or `::` (for all IPv6 abd IPv4)  
  `sudo systemctl start docker mysqld and mongod`
-2. run `init.sql`
+2. Edit `init.sql` as instructed in the file
+3. run `init.sql`
  
 
 #### Part-II. Setting Up minikube and conatiners
