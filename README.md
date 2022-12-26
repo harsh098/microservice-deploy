@@ -1,5 +1,5 @@
 # Microservices Project : A Video Converter Service
-This project was my first introduction to developing microservices and deploying the to a local Kubernetes cluster.
+This project was my first introduction to developing microservices and deploying them to a local **Kubernetes** cluster(**minikube**).
 Multiple repos were combined for your convinience.  
 
 ------
