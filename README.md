@@ -1,5 +1,5 @@
 # Microservices Project : A Video Converter Service
-This project was my first introduction to developing microservices and deploying them to a local **Kubernetes** cluster(**minikube**).
+This project was my first introduction to developing microservices and deploying them to a local **Kubernetes** cluster(**minikube**).  
 Multiple repos were combined for your convinience.  
 
 ------
@@ -19,8 +19,8 @@ Multiple repos were combined for your convinience.
 #### Part-I. Start Docker, mysqld, and mongod
 Assuming you have `mysql` and `mongo` installed on local and `mongo` is configured to allow access without authentication.  
 
-1. Configure You `mysqld.service` and `mongod.service` to allow all hosts i.e. `0.0.0.0` (for all IPv4) or `::` (for all IPv6 abd IPv4) 
-`sudo systemctl start docker mysqld and mongod`
+1. Configure You `mysqld.service` and `mongod.service` to allow all hosts i.e. `0.0.0.0` (for all IPv4) or `::` (for all IPv6 abd IPv4)  
+ `sudo systemctl start docker mysqld and mongod`
 2. run `init.sql`
  
 
