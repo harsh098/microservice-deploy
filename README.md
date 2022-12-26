@@ -68,6 +68,7 @@ kubectl create -f notification_service/manifests
 ## Running Demo
 
 ##### STEP-1 login via /login endpoint and get JWT
+<img src="https://github.com/harsh098/microservice-deploy/blob/main/docs/images/login_endpoint.png?raw=true"/>
 
 ##### STEP-2 Upload video via /upload endpoint and validate using JWT
 
