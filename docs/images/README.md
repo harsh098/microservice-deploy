@@ -1,1 +1,1 @@
-This folder contin image files for README
+This folder contains image files for README
