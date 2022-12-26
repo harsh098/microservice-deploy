@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/harsh098/microservice-deploy-notification-service
+	branch = main
+	commit = 62a8f9815ae5daf78741cc44995cdddda02f51f6
+	parent = 6ba5d35f6b8c85d1fae23f26c45d5cb77b638348
+	method = merge
+	cmdver = 0.4.3
