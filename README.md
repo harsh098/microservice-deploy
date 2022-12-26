@@ -39,10 +39,11 @@ Assuming you have `mysql` and `mongo` installed on local and `mongo` is configur
    2. `GMAIL_ADDRESS` and `GMAIL_PASSWORD` in `notification_service/manifests/secret.yaml` [here](https://github.com/harsh098/microservice-deploy/blob/main/notification_service/manifests/secret.yaml)
 5. Run `minikube ip`
 
-####  Part-III. Edit your /etc/hosts
+####  Part-III. Edit your DNS Records
 
 ***Note:*** replace `192.168.49.2` with the **address** in the output of `minikube ip`  
-Add the following lines to `/etc/hosts`
+Add the following lines to `/etc/hosts` (in **Mac/Linux**) or `C:\Windows\System32\Drivers\etc\hosts` (in **Windows**)  
+
 
 ```
   192.168.49.2   kubernetes.docker.internal
@@ -71,21 +72,29 @@ kubectl create -f notification_service/manifests
 <img src="https://github.com/harsh098/microservice-deploy/blob/main/docs/images/login_endpoint.png?raw=true"/>
 
 ##### STEP-2 Upload video via /upload endpoint and validate using JWT
+<img src="https://github.com/harsh098/microservice-deploy/blob/main/docs/images/secured_upload.png?raw=true"/>
+<img src="https://github.com/harsh098/microservice-deploy/blob/main/docs/images/upload_body.png?raw=true"/>
 
 ##### STEP-3 The video is processed and notification received on e-mail
+<img src="https://github.com/harsh098/microservice-deploy/blob/main/docs/images/email_from_notification_Service.png?raw=true"/>
 
 ##### STEP-4 Download the converted file using /download (validate using JWT)
+<img src="https://github.com/harsh098/microservice-deploy/blob/main/docs/images/download_endpoint.png?raw=true"/>
 
 ##### Running Kubernetes cluster Objects
 
 ######   I. Pods
+<img src="https://github.com/harsh098/microservice-deploy/blob/main/docs/images/pods_on_k8s.png?raw=true"/>  
 
 ######   II. Ingresses
+<img src="https://github.com/harsh098/microservice-deploy/blob/main/docs/images/ingresses_on_k8s.png?raw=true"/>  
 
 ######   III. Deployments
+<img src="https://github.com/harsh098/microservice-deploy/blob/main/docs/images/deployments_on_k8s.png?raw=true"/>  
 
 ######   IV.  Persistent Volumes
+<img src="https://github.com/harsh098/microservice-deploy/blob/main/docs/images/pvc_k8s.png?raw=true"/>  
 
 ######   V. Stateful Sets
-
+<img src="https://github.com/harsh098/microservice-deploy/blob/main/docs/images/statefulset.png?raw=true"/>
 
