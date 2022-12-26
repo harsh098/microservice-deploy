@@ -65,3 +65,26 @@ kubectl create -f notification_service/manifests
 ```
 2. **Mac and Windows Users need to run** `minikube tunnel` **in a separate terminal window**
 
+## Running Demo
+
+##### STEP-1 login via /login endpoint and get JWT
+
+##### STEP-2 Upload video via /upload endpoint and validate using JWT
+
+##### STEP-3 The video is processed and notification received on e-mail
+
+##### STEP-4 Download the converted file using /download (validate using JWT)
+
+##### Running Kubernetes cluster Objects
+
+######   I. Pods
+
+######   II. Ingresses
+
+######   III. Deployments
+
+######   IV.  Persistent Volumes
+
+######   V. Stateful Sets
+
+
