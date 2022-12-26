@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/harsh098/microservice-deploy-auth
+	branch = main
+	commit = c4f29e965a582f72d6563cf52ca32b962394fa62
+	parent = 79facbaa2cbba8def09b8134d36206a9ff3559ba
+	method = merge
+	cmdver = 0.4.3
